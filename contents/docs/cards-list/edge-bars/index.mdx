@@ -1,0 +1,43 @@
+---
+title: Edge Bars (Left or Right)
+description: The Cards List screen is your deck management hub. View all cards at once, search, reorder, edit, delete.
+keywords: ["manage flashcards","edit cards","organize flashcards","flashcard list","card management","anki card list","reorder cards","search flashcards"]
+---
+
+### Edge Bars (Left or Right)
+
+Colored bars indicate card status:
+
+#### Learning Status
+- **🔴 Red** - Forgotten (recently marked "Again" in study mode)
+- **🟡 Yellow** - Learning in progress
+- **🟢 Green** - Well-memorized (long intervals)
+- **⚪ Gray** - Disabled card (won't appear in study mode)
+
+#### Sync Status (After syncing with file)
+- **🟠 Orange** - Card was updated during last sync
+- **🟢 Green** - Card was added during last sync
+- **Intensity:**
+  - **Brighter** - Changes came from file → app
+  - **Dimmer** - Changes came from app → file
+
+Configure edge bar visibility in [App Settings](/docs/settings/app-settings/).
+
+
+## Edge Bar Details
+
+### Left vs. Right Edge Bar
+
+Configurable in [App Settings](/docs/settings/app-settings/):
+- **Show left edge bar** - Status appears on left side
+- **Show right edge bar** - Status appears on right side
+- **Show both** - Redundant but highly visible
+- **Hide both** - Clean interface, no status indicators
+
+### Status Priority
+
+If a card has multiple statuses, the edge bar shows:
+1. **Sync status** (if recently synced) - Orange/Green
+2. **Forgotten status** (if marked "Again") - Red
+3. **Learning status** (if being studied) - Yellow/Green
+4. **Disabled status** (if disabled) - Gray
